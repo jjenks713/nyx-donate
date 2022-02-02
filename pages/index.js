@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className='grid justify-center drop-shadow-xl'><Image src="/LOGO.png" width={500} height={300} /></header>
+      <header className='grid justify-center drop-shadow-xl'><Image alt='NYX' src="/LOGO.png" width={500} height={300} /></header>
 
       <main className='font-Nanum grid justify-center py-4'>
 
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto px-4 grid justify-center text-center font-Nanum">
           <div className="max-w-sm w-full lg:max-w-full lg:flex justify-center">
             <div className="h-auto md:h-auto lg:h-auto lg:w-48 flex-none bg-cover drop-shadow-xl rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" >
-            <Image width={400} height={600} src='/nyx-paint.png' className=''/>
+            <Image alt='NYX' width={400} height={600} src='/nyx-paint.png' className=''/>
 
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
 
         <div className='py-10 grid justify-center'>
-        <button class="rounded-full ... shadow-xl p-3 bg-green-500">Donate Now</button>
+        <button className="rounded-full ... shadow-xl p-3 bg-green-500">Donate Now</button>
         </div>
 
       </main>
