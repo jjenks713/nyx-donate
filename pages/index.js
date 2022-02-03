@@ -93,7 +93,6 @@ export default function Home() {
                 min={0}
                 step={400}
                 max={4000}
-                valueLabelDisplay="auto"
                 aria-labelledby="non-linear-slider"
                 valueLabelDisplay="on"
               />
