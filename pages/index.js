@@ -68,6 +68,21 @@ export default function Home() {
        
           </CardActions>
         </Card>
+
+        <div className='grid justify-center py-4'>
+          <h1 className='grid justify-center' >Share</h1>
+            <div className='flex flex-row flex-wrap justify-between py-3'>
+                <a className='basis-1/5' href="https://www.facebook.com/sharer/sharer.php?u=https://nyx-donate.vercel.app/"><img width={"25px"} src="/facebook.png" alt="Facebook"/></a>
+                <a className='basis-1/5' href="https://twitter.com/intent/tweet?url=https://nyx-donate.vercel.app/&text="><img width={"25px"} src="/twitter.svg" alt="Twitter"/></a>
+{/*                 <a className='basis-1/5' href="https://pinterest.com/pin/create/button/?url=https://nyx-donate.vercel.app/&media=&description="><img width={"25px"} src="/pinterest.png" alt="Pinterest"/></a>
+                <a className='basis-1/5' href="https://www.linkedin.com/shareArticle?mini=true&url=https://nyx-donate.vercel.app/"><img width={"25px"} src="/linkedin.svg" alt="LinkedIn"/></a> */}
+                <a className='basis-1/5' href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://nyx-donate.vercel.app/%0A"><img width={"25px"} src="/email.svg" alt="Email"/></a>
+            </div>
+            <a>Copy Link: https://nyx-donate.vercel.app/</a>
+
+        </div>
+
+
       </div>
 
         <div className='grid justify-center py-10'>
