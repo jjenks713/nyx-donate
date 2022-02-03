@@ -1,5 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Slider from '@mui/material/Slider';
 
 
 export default function Home() {
@@ -17,35 +26,101 @@ export default function Home() {
 
       <main className='font-Nanum grid justify-center py-4'>
 
+      <div className='grid justify-center'>
+      <Card sx={{ maxWidth: 345 }}>
+          <CardMedia
+            component="img"
+            height="500"
+            image="/nyx-paint.png"
+            alt="NYX"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              NYX
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            Nyx is my baby girl and she needs help. Over the holidays Nyx unfortanetely tore her ACL and is in serious pain. She requires a surgey that is rather expensive but without will cause serious issues down the line; arthritis, joint pain, lameness, swelling and could even develop bone spurs. Please help with any amount you can. Thank you all so much!
 
-        <div className="container mx-auto px-4 grid justify-center text-center font-Nanum">
-          <div className="max-w-sm w-full lg:max-w-full lg:flex justify-center">
-            <div className="h-auto md:h-auto lg:h-auto lg:w-48 flex-none bg-cover drop-shadow-xl rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" >
-            <Image alt='NYX' width={400} height={600} src='/nyx-paint.png' className=''/>
+            </Typography>
+          </CardContent>
+          <CardActions className="grid justify-center">
+          <div className='py-10 justify-center flex flex-row flex-wrapper'>
+            <div className='flex-1/2 pr-4 text-center'>
+              <img src="venmo.png" className='w-24'
+              /><br />
+              <Button className='font-Nanum h-6 rounded-full ... bg-blue-400 px-3 text-sm text-black' href="https://account.venmo.com/u/Mary-Jenkin">Donate</Button>
+              <img className='w-40' src="/venmo-qr.png" alt="Venmo QR" /> 
+            </div>
+            <div className='text-center'>
+              <img src="/paypal.png" className='w-24'/><br />
+              <form action="https://www.paypal.com/donate" method="post" target="_top">
+              <input type="hidden" name="business" value="5T5XGCP67NT6W" />
+              <input type="hidden" name="no_recurring" value="1" />
+              <input type="hidden" name="item_name" value="Donate to NYX Surgery fund. Help a pup in need" />
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="DONATE with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+              <img className='w-36' src="/paypal-qr.png" alt="Paypal QR" /> 
+            </div>
+  
+          </div>
+       
+          </CardActions>
+        </Card>
+      </div>
 
-            </div>
-            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-              <div className="mb-8">
-                <div className="text-gray-900 font-bold text-xl mb-2 uppercase font-bold">Nyx</div>
-                <p className="text-gray-700 text-base">
-                  Nyx is my baby girl and she needs help. Over the holidays Nyx unfortanetely tore her ACL and is in serious pain. She requires a surgey that is rather expensive but without will cause serious issues down the line; arthritis, joint pain, lameness, sweliing and could even develop bone spurs. Please help with any amount you can. Thank you all so much!
-                </p>
-              </div>
-              <div className="flex items-center">
-                <div className="text-sm">
-                  <p className="text-gray-900 leading-none">Mary Jenkin</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
+        <div className='grid justify-center py-10'>
         <h1 className="uppercase font-bold leading-snug text-center text-black text-l py-3">
-          Please help this Pup get the care that she Needs
+          Please help this Pup get the care that she Needs!!!
         </h1>
+        <Typography className="text-center" id="non-linear-slider" gutterBottom>
+          <h1 className="uppercase font-bold leading-snug text-center text-black text-l py-3">Goal</h1>
+          </Typography>
+          <div className='flex flex-row justify-between px-3'>
+            <div className='basis-1/2'>
+              $0
+            </div>
+            <div className='basis-1/2 right-0'>
+              $4000
+            </div>
+            </div><br /><br />
 
-        <div className='py-10 grid justify-center'>
-        <button className="rounded-full ... shadow-xl p-3 bg-green-500">Donate Now</button>
+            <div className="grid justify-center">
+            <Slider
+                className="w-80"
+                value={0}
+                min={0}
+                step={400}
+                max={4000}
+                valueLabelDisplay="auto"
+                aria-labelledby="non-linear-slider"
+                valueLabelDisplay="on"
+              />
+            </div>
+
+
         </div>
+
+{/*         <div className='py-10 justify-center flex flex-row flex-wrapper'>
+          <div className='flex-1/4 p-4 justify-center'>
+            Venmo<br />
+            <Button className='rounded-full ... bg-green-500 px-5 text-black' href="https://account.venmo.com/u/Mary-Jenkin">Donate</Button>
+            </div>
+          <div className='flex-1/4 p-4 justify-center'>
+            <a>Paypal</a>
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+          <input type="hidden" name="business" value="5T5XGCP67NT6W" />
+          <input type="hidden" name="no_recurring" value="1" />
+          <input type="hidden" name="item_name" value="Donate to NYX Surgery fund. Help a pup in need" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+          <img src="/paypal-qr.png" alt="Paypal QR" />
+          </div>
+
+        </div> */}
 
       </main>
     </div>
