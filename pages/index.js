@@ -92,7 +92,7 @@ export default function Home() {
                 style={{
                   width: "300px"
                 }}
-                value={0}
+                value={250}
                 min={0}
                 step={400}
                 max={4000}
