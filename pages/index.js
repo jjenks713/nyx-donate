@@ -84,11 +84,14 @@ export default function Home() {
             <div className='basis-1/2 right-0'>
               $4000
             </div>
-            </div><br /><br />
+            </div><br />
 
             <div className="grid justify-center">
             <Slider
                 className="w-80"
+                style={{
+                  width: "300px"
+                }}
                 value={0}
                 min={0}
                 step={400}
