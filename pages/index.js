@@ -22,9 +22,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className='grid justify-center drop-shadow-xl'><Image alt='NYX' src="/LOGO.png" width={500} height={300} /></header>
+      <header className='grid justify-center drop-shadow-xl'><img alt='NYX' src="/LOGO.png"/></header>
 
-      <main className='font-Nanum grid justify-center py-4'>
+      <main className='font-Nanum grid justify-center'>
 
       <div className='grid justify-center'>
       <Card sx={{ maxWidth: 345 }}>
@@ -72,13 +72,13 @@ export default function Home() {
         <div className='grid justify-center py-4'>
           <h1 className='grid justify-center' >Share</h1>
             <div className='flex flex-row flex-wrap justify-between py-3'>
-                <a className='basis-1/5' href="https://www.facebook.com/sharer/sharer.php?u=https://nyx-donate.vercel.app/"><img width={"25px"} src="/facebook.png" alt="Facebook"/></a>
-                <a className='basis-1/5' href="https://twitter.com/intent/tweet?url=https://nyx-donate.vercel.app/&text="><img width={"25px"} src="/twitter.svg" alt="Twitter"/></a>
-{/*                 <a className='basis-1/5' href="https://pinterest.com/pin/create/button/?url=https://nyx-donate.vercel.app/&media=&description="><img width={"25px"} src="/pinterest.png" alt="Pinterest"/></a>
-                <a className='basis-1/5' href="https://www.linkedin.com/shareArticle?mini=true&url=https://nyx-donate.vercel.app/"><img width={"25px"} src="/linkedin.svg" alt="LinkedIn"/></a> */}
-                <a className='basis-1/5' href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://nyx-donate.vercel.app/%0A"><img width={"25px"} src="/email.svg" alt="Email"/></a>
+                <a className='basis-1/5' href="https://www.facebook.com/sharer/sharer.php?u=https://www.nyx-donation.com/"><img width={"25px"} src="/facebook.png" alt="Facebook"/></a>
+                <a className='basis-1/5' href="https://twitter.com/intent/tweet?url=https://www.nyx-donation.com/&text="><img width={"25px"} src="/twitter.svg" alt="Twitter"/></a>
+{/*                 <a className='basis-1/5' href="https://pinterest.com/pin/create/button/?url=https://www.nyx-donation.com/&media=&description="><img width={"25px"} src="/pinterest.png" alt="Pinterest"/></a>
+                <a className='basis-1/5' href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nyx-donation.com/"><img width={"25px"} src="/linkedin.svg" alt="LinkedIn"/></a> */}
+                <a className='basis-1/5' href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://www.nyx-donation.com/%0A"><img width={"25px"} src="/email.svg" alt="Email"/></a>
             </div>
-            <a>Copy Link: https://nyx-donate.vercel.app/</a>
+            <a>Copy Link: https://www.nyx-donation.com/</a>
 
         </div>
 
