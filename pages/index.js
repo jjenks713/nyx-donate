@@ -61,11 +61,7 @@ export default function Home() {
             </Typography>
           </CardContent>
           <div className='grid justify-center'>
-          <img 
-          src='/donate.png' 
-          alt="Donate"
-          className='h-10'
-          />
+              <p className='text-center'>You can Donate by buying Art <a className='bg-green-100 rounded-md p-1 underline' href="https://www.etsy.com/shop/creepybutcutepress">HERE</a> or you can donate cash below</p>
           </div>
 
           <CardActions className="grid justify-center">
