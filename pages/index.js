@@ -110,7 +110,9 @@ export default function Home() {
             </div>
   
           </div>
-       
+            <div className='text-center text-xs text-gray-400'>
+              FYI: Venmo and Cashapp do not charge fees but Paypal does. If you'd like Nyx to recieve 100% of your donation please use Venmo or Cashapp
+            </div>
           </CardActions>
         </Card>
 
