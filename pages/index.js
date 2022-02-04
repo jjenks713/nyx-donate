@@ -44,7 +44,7 @@ export default function Home() {
             </Typography>
             <Typography variant="body2" color="text.secondary">
               <p>
-              Hi, Im NYX and Im a big ole derp that likes to play too hard. Last month
+              Hi, My name is NYX and I am a big ole derp that likes to play too hard. Last month
               I was rough housing with my cousins and accidentally tore my ACL. 
               My mom who works 2 jobs and is a freelance artist is heartbroken
               and wishes she could help me, but the surgery I need is just too expensive. 
@@ -111,7 +111,7 @@ export default function Home() {
   
           </div>
             <div className='text-center text-xs text-gray-400'>
-              FYI: Venmo and Cashapp do not charge fees but Paypal does. If you'd like Nyx to recieve 100% of your donation please use Venmo, Cashapp or buy some of Mary's art <a className='bg-green-100 rounded-md p-1 underline' href="https://www.etsy.com/shop/creepybutcutepress">HERE</a> 
+              FYI: Venmo and Cashapp do not charge fees but Paypal does. If you would like Nyx to recieve 100% of your donation please use Venmo, Cashapp or buy some of Mary Jenkins art <a className='bg-green-100 rounded-md p-1 underline' href="https://www.etsy.com/shop/creepybutcutepress">HERE</a> 
             </div>
           </CardActions>
         </Card>
