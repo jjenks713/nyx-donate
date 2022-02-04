@@ -45,9 +45,10 @@ export default function Home() {
             <Typography variant="body2" color="text.secondary">
               <p>
               Hi, Im NYX and Im a big ole derp that likes to play too hard. Last month
-              I was rough housing with my cousins and accidentally tore my ACL. My mom is heartbroken
-              and wishes she could help me, even though she works 2 jobs and is a freelance artist, but the surgery
-              that I need is just too expensive. Please help out my mom so I can get back to destroying her apartment
+              I was rough housing with my cousins and accidentally tore my ACL. 
+              My mom who works 2 jobs and is a freelance artist is heartbroken
+              and wishes she could help me, but the surgery I need is just too expensive. 
+              Please help out my mom so I can get back to destroying her apartment
               </p> <br />
               <p>-- Nyx</p> <br />
             <p> 
