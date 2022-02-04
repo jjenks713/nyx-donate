@@ -66,8 +66,8 @@ export default function Home() {
 
           <CardActions className="grid justify-center">
           <div className='py-3 justify-center flex flex-row flex-wrapper'>
-            <div className='flex-1/2 pr-4 text-center'>
-              <img src="venmo.png" className='w-24 ml-5'
+            <div className='flex-1/3 pr-4 text-center'>
+              <img src="venmo.png" className='w-24'
               /><br />
               <a className='font-Nanum h-6 rounded-full ... bg-blue-400 px-5 text-black font-bold' href="https://account.venmo.com/u/Mary-Jenkin">Donate</a>
               <img
@@ -79,8 +79,24 @@ export default function Home() {
               }}
               /> 
             </div>
-            <div className='text-center'>
-              <img src="/paypal.png" className='w-24 ml-5'/><br />
+            <div className='flex-1/3 pr-4 text-center'>
+              <img src="cashapp.png" className='w-24'
+              style={{
+                paddingTop: "4px"
+              }}
+              /><br />
+              <a className='font-Nanum h-6 rounded-full ... bg-green-400 px-5 text-black font-bold' href="https://cash.app/$jenkin79">Donate</a>
+              <img
+              className='w-36'
+              src="/cash-app-qr.png"
+              alt="Cashapp QR"
+              style={{
+                paddingTop: '7px'
+              }}
+              /> 
+            </div>
+            <div className='flex-1/3 text-center'>
+              <img src="/paypal.png" className='w-24'/><br />
               <form action="https://www.paypal.com/donate" method="post" target="_top">
               <input type="hidden" name="business" value="5T5XGCP67NT6W" />
               <input type="hidden" name="no_recurring" value="1" />
