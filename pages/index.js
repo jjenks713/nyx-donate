@@ -69,7 +69,7 @@ export default function Home() {
             <div className='flex-1/2 pr-4 text-center'>
               <img src="venmo.png" className='w-24 ml-5'
               /><br />
-              <button className='font-Nanum h-6 rounded-full ... bg-blue-400 px-5 text-black font-bold' href="https://account.venmo.com/u/Mary-Jenkin">Donate</button>
+              <a className='font-Nanum h-6 rounded-full ... bg-blue-400 px-5 text-black font-bold' href="https://account.venmo.com/u/Mary-Jenkin">Donate</a>
               <img
               className='w-36'
               src="/venmo-qr.png"
