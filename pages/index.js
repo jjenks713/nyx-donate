@@ -45,7 +45,7 @@ export default function Home() {
             <Typography variant="body2" color="text.secondary">
               <p>
               Hi, Im NYX and Im a big ole derp that likes to play too hard. Last month
-              I was rough housing with my cousins and accidentally tore my ACL. My mom is broken hearted
+              I was rough housing with my cousins and accidentally tore my ACL. My mom is heartbroken
               and wishes she could help me, even though she works 2 jobs and is a freelance artist, but the Surgery
               that I need is just too expensive. Please help out my mom so I can get back to destroying her apartment
               </p> <br />
