@@ -39,7 +39,20 @@ export default function Home() {
               NYX
             </Typography>
             <Typography variant="body2" color="text.secondary">
-            Nyx is my baby girl and she needs help. Over the holidays Nyx unfortanetely tore her ACL and is in serious pain. She requires a surgey that is rather expensive but without will cause serious issues down the line; arthritis, joint pain, lameness, swelling and could even develop bone spurs. Please help with any amount you can. Thank you all so much!
+              <p>
+              "Hi, I'm NYX and I'm a big ole derp that likes to play too hard. Last month
+              I was rough housing with my cousins and accidentally tore my ACL. My mom is broken hearted
+              and wishes she could help me, even though she works 2 jobs and is a freelance artist, but the Surgery
+              that i need is just too expensive. Please help out my mom so I can get back to destroying her apartment"
+              </p> <br />
+              <p>-- Nyx</p> <br />
+            <p> 
+            Over the holidays Nyx unfortanetely tore her ACL and is in serious pain. She requires a surgey that is rather 
+            expensive but without it her injury will cause serious issues down the line; arthritis, 
+            joint pain, lameness, swelling and could even develop bone spurs. <br /><br />
+            Please help with any amount you can. Thank you all so much!
+            </p>
+
 
             </Typography>
           </CardContent>
