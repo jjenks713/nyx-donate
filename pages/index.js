@@ -53,7 +53,7 @@ export default function Home() {
               <p>-- Nyx</p> <br />
             <p> 
             Over the holidays Nyx unfortanetely tore her ACL and is in serious pain. She requires a surgey that is rather 
-            expensive but without it her injury will cause serious issues down the line; arthritis, 
+            expensive. Without it her injury will cause serious issues down the line; arthritis, 
             joint pain, lameness, swelling and could even develop bone spurs. <br /><br />
             Please help with any amount you can. Thank you all so much!
             </p>
