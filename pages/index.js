@@ -27,7 +27,7 @@ export default function Home() {
       <main className='font-Nanum grid justify-center'>
 
       <div className='grid justify-center'>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 345 }} className="shadow-lg">
           <CardMedia
             component="img"
             height="500"
@@ -43,16 +43,31 @@ export default function Home() {
 
             </Typography>
           </CardContent>
+          <div className='grid justify-center'>
+          <img 
+          src='/donate.png' 
+          alt="Donate"
+          className='h-10'
+          />
+          </div>
+
           <CardActions className="grid justify-center">
-          <div className='py-10 justify-center flex flex-row flex-wrapper'>
+          <div className='py-3 justify-center flex flex-row flex-wrapper'>
             <div className='flex-1/2 pr-4 text-center'>
-              <img src="venmo.png" className='w-24'
+              <img src="venmo.png" className='w-24 ml-5'
               /><br />
-              <Button className='font-Nanum h-6 rounded-full ... bg-blue-400 px-3 text-sm text-black' href="https://account.venmo.com/u/Mary-Jenkin">Donate</Button>
-              <img className='w-40' src="/venmo-qr.png" alt="Venmo QR" /> 
+              <button className='font-Nanum h-6 rounded-full ... bg-blue-400 px-5 text-black font-bold' href="https://account.venmo.com/u/Mary-Jenkin">Donate</button>
+              <img
+              className='w-36'
+              src="/venmo-qr.png"
+              alt="Venmo QR"
+              style={{
+                paddingTop: '7px'
+              }}
+              /> 
             </div>
             <div className='text-center'>
-              <img src="/paypal.png" className='w-24'/><br />
+              <img src="/paypal.png" className='w-24 ml-5'/><br />
               <form action="https://www.paypal.com/donate" method="post" target="_top">
               <input type="hidden" name="business" value="5T5XGCP67NT6W" />
               <input type="hidden" name="no_recurring" value="1" />
@@ -69,8 +84,46 @@ export default function Home() {
           </CardActions>
         </Card>
 
+      </div>
+
+
+      <div class="max-w-sm rounded overflow-hidden mx-5 my-5 shadow-lg bg-gradient-to-b from-green-100 to-blue-300">
+        <div class="px-6 py-4 text-center">
+          <div class="font-bold text-xl mb-2 underline decoration-1">Please help this Pup get the care that she Needs!!!</div>
+
+          <div className='grid justify-center py-3 shadow-xl'>
+            <Typography className="text-center" id="non-linear-slider" gutterBottom>
+              <h1 className="uppercase font-bold leading-snug text-center text-black text-l py-1">Goal</h1>
+              </Typography>
+              <div className='flex flex-row justify-between px-3'>
+                <a>
+                  $0
+                </a>
+                <a>
+                  $4000
+                </a>
+                </div><br /><br />
+
+                <div className="grid justify-center">
+                  <Slider
+                      className="w-80"
+                      style={{
+                        width: "250px"
+                      }}
+                      value={250}
+                      min={0}
+                      step={400}
+                      max={4000}
+                      aria-labelledby="non-linear-slider"
+                      valueLabelDisplay="on"
+                    />
+                </div>
+          </div>
+
+        </div>
+        <div class="px-6 pt-4 pb-2">
         <div className='grid justify-center py-4'>
-          <h1 className='grid justify-center' >Share</h1>
+          <h1 className='grid justify-center' >Share:</h1>
             <div className='flex flex-row flex-wrap justify-between py-3'>
                 <a className='basis-1/5' href="https://www.facebook.com/sharer/sharer.php?u=https://www.nyx-donation.com/"><img width={"25px"} src="/facebook.png" alt="Facebook"/></a>
                 <a className='basis-1/5' href="https://twitter.com/intent/tweet?url=https://www.nyx-donation.com/&text="><img width={"25px"} src="/twitter.svg" alt="Twitter"/></a>
@@ -78,46 +131,12 @@ export default function Home() {
                 <a className='basis-1/5' href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nyx-donation.com/"><img width={"25px"} src="/linkedin.svg" alt="LinkedIn"/></a> */}
                 <a className='basis-1/5' href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://www.nyx-donation.com/%0A"><img width={"25px"} src="/email.svg" alt="Email"/></a>
             </div>
-            <a>Copy Link: https://www.nyx-donation.com/</a>
+            <div className='text-center'>Copy Link: <br/> <a>https://www.nyx-donation.com/</a></div>
 
         </div>
-
-
+        </div>
       </div>
 
-        <div className='grid justify-center py-10'>
-        <h1 className="uppercase font-bold leading-snug text-center text-black text-l py-3">
-          Please help this Pup get the care that she Needs!!!
-        </h1>
-        <Typography className="text-center" id="non-linear-slider" gutterBottom>
-          <h1 className="uppercase font-bold leading-snug text-center text-black text-l py-3">Goal</h1>
-          </Typography>
-          <div className='flex flex-row justify-between px-3'>
-            <div className='basis-1/2'>
-              $0
-            </div>
-            <div className='basis-1/2 right-0'>
-              $4000
-            </div>
-            </div><br />
-
-            <div className="grid justify-center">
-            <Slider
-                className="w-80"
-                style={{
-                  width: "300px"
-                }}
-                value={250}
-                min={0}
-                step={400}
-                max={4000}
-                aria-labelledby="non-linear-slider"
-                valueLabelDisplay="on"
-              />
-            </div>
-
-
-        </div>
 
 {/*         <div className='py-10 justify-center flex flex-row flex-wrapper'>
           <div className='flex-1/4 p-4 justify-center'>
