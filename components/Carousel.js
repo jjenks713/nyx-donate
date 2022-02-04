@@ -2,13 +2,17 @@ import { useState, useEffect, useRef } from 'react';
 
 const featuredImages = [
 "/nyx-paint.png",
+"/nyx/nyx-12.jpg", 
+"/nyx/nyx-14.jpg", 
 "/nyx/nyx-5.jpg", 
 "/nyx/nyx-6.jpg", 
 "/nyx/nyx-7.jpg",
+"/nyx/nyx-13.jpg",
 "/nyx/nyx-8.jpg",
 "/nyx/nyx-10.jpg",
 "/nyx/nyx-11.jpg",
-"/nyx/nyx-3.jpg",  
+"/nyx/nyx-3.jpg", 
+"/nyx/nyx-15.jpg",  
 
 ]
 let count = 0;
