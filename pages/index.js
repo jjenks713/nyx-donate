@@ -87,9 +87,9 @@ export default function Home() {
       </div>
 
 
-      <div class="max-w-sm rounded overflow-hidden mx-5 my-5 shadow-lg bg-gradient-to-b from-green-100 to-blue-300">
-        <div class="px-6 py-4 text-center">
-          <div class="font-bold text-xl mb-2 underline decoration-1">Please help this Pup get the care that she Needs!!!</div>
+      <div className="max-w-sm rounded overflow-hidden mx-5 my-5 shadow-lg bg-gradient-to-b from-green-100 to-blue-300">
+        <div className="px-6 py-4 text-center">
+          <div className="font-bold text-xl mb-2 underline decoration-1">Please help this Pup get the care that she Needs!!!</div>
 
           <div className='grid justify-center py-3 shadow-xl'>
             <Typography className="text-center" id="non-linear-slider" gutterBottom>
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div class="px-6 pt-4 pb-2">
+        <div className="px-6 pt-4 pb-2">
         <div className='grid justify-center py-4'>
           <h1 className='grid justify-center' >Share:</h1>
             <div className='flex flex-row flex-wrap justify-between py-3'>
