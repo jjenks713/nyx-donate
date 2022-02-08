@@ -144,7 +144,7 @@ export default function Home() {
                       style={{
                         width: "250px"
                       }}
-                      value={455}
+                      value={525}
                       min={0}
                       step={400}
                       max={4000}
